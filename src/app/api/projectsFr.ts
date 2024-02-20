@@ -1,63 +1,53 @@
 export const projectsFr = [
     {
         id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Hexagone Bâtiment",
+        technologies: 'Html5/CSS3 , Javascript, Bootstrap, Jquery, PHP',
         images: [
             {
                 title:'',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/hexagone-batiment_fr.jpg",
             },
             {
                 title:'',
-                src:"assets/images/voyage.webp",
-            },
-            {
-                title:'',
-                src: "assets/images/logements.webp",
+                src:"assets/images/hexagone-batiment_fr.jpg",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> plus de problème de choix ou désaccords.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
+        url: "https://www.hexagone-batiment.fr/",
+        detail:"Hexagone Bâtiment est un site d'internet pour une entreprise d'aménagement et peinture intérieure",
+        codeSourceUrl:'https://www.hexagone-batiment.fr/',
         detailIsDisplayed: false,
     },
     {
         id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        name: "Ready to go",
+        technologies: 'Html5/CSS3 , Javascript, Bootstrap, Jquery, PHP/Laravel',
         images: [
-            {
-                title:'Compagnes de marketing',
-                src:   "assets/images/compagnes.jpg",
-            },
-            {
-                title:'Détail de la compagne',
-                src :"assets/images/compagne-detail.jpg",
-            },
-            {
-                title:"Performance d'un émail",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title:"Performance d'un Asset",
+            {   
                 src: "assets/images/asset-detail.jpg" 
             },
+            {
+                src :"assets/images/compagne-detail.PNG",
+            },
+            {   
+                src: "assets/images/compagnes.PNG" 
+            },
+            
             
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        url:'https://www.readytogo.fr/',
+        detail:"Ready to go est un site web qui permet de bien organiser un séjour à l'étranger. Par exemple, un étudiant peut facilement trouver des programmes d’études, des stages et des logements grâce à son espace perso. De plus, l’étudiant peut échanger, témoigner, partager ses conseils et ses expériences",
+        codeSourceUrl:'https://www.readytogo.fr/',
         detailIsDisplayed: false,
     },
     {
         id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Heyme",
+        technologies: 'Javascript/Typescript, Angular 6, Bootstrap, Jquery,PHP/Laravel',
         images: [
             {
                 title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                src:   "assets/images/pokedex.jpg",
             },
             {
                 title:'Trainers',
@@ -68,40 +58,47 @@ export const projectsFr = [
                 src: "assets/images/profile-trainer.png",
             },            
         ],
-        url:'#portfolio',
-        detail:"<p>Affichage du détail des pokémons et de leurs drésseurs.</p> <p>L'application contient deux micro-service: pokemon management et trainer management, qui exposent un canal de communication REST/JSON.<br>Le 3éme micro-service WEB-UI se connecte aux deux micro-service.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url:'https://heyme.care/fr',
+        detail:"Heyme c’est une compagnie d'assurance créée en 2019 qui propose des offres d’assurance pour les étudiants étrangers âgés entre 18 et 35 ans.",
+        codeSourceUrl:'https://heyme.care/fr',
         detailIsDisplayed: false,
     },
     {
         id:"portfolio",
         name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        technologies: 'Angular11, Html5, CSS3, TypeScript, BootStrap',
         images: [
             {
                 title:'Portfolio',
-                src:   "assets/images/portfolio.png",
+                src:   "assets/images/portfolio.PNG",
             },
         ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p>CV sous forme de site WEB responsive que j'ai mis en open-source sur GitHub accompagné d'une publication d'un <a title='Voir l'article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> sur medium. </p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
+        url:'#',
+        detail:"Mon CV sous forme de site WEB responsive que j'ai mis en open-source sur GitHub ",
+        codeSourceUrl:'#',
         detailIsDisplayed: false,
     },
     {
         id:"riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
+        name: "Grid Automation DM",
+        technologies: 'Angular11,14, Html5, CSS3, TypeScript, Aggrid',
         images: [
             {
-                title:'riddle',
-                src:   "assets/images/riddle.png",
+                title:'Remove Control Block',
+                src:   "assets/images/projet-5-1.png",
+            },
+            {
+                title:'Add Export File IEC',
+                src:   "assets/images/projet-5-2.png",
+            },
+            {
+                title:'Remove Sampled Value Block',
+                src:   "assets/images/projet-5-3.png",
             },
         ],
-        url:'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail:"Affichage des étapes de la résolution d'énigme de transvasement. Étant donné deux réservoirs vides de contenance X et Y, comment obtenir précisément T litres dans l’un des deux réservoirs (T étant un entier). On peut remplir ou vider un réservoir, et transvaser le contenu de l’un dans l’autre, jusqu’à ce que la source soit vide ou la destination pleine.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/transfer_riddle_client',
+        url:'#',
+        detail:"Un projet de la societé General Electric c'est un Grid Automation Device Manager (Circuit électronique de GE)",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
 ];
-

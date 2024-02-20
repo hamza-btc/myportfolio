@@ -24,10 +24,13 @@ li.active{
 .links{
   opacity: 0;
   position: absolute;
-  top: 30%;
+  top: 23%;
   left: 0;
   right: 0;
   text-align: center;
+}
+.links a {
+  color: #c52127;
 }
 
 

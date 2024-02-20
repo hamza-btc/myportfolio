@@ -3,12 +3,12 @@ export const locale = {
     data: {
         'about': {
             'title': 'A propos',
-            'jobTitle': "Développeur d'applications web et mobiles",
+            'jobTitle': "Développeur web Front-end et intérgrateur web",
             'introductionOfMe': "Intéressé par les nouvelles technologies et méthodes de travail. J'aime proposer des idées qui permettent d'améliorer les processus d'affaires.",
             'passionateAboutDevelopment':' Passionné par le développement',
             'mobility': 'Mobile dans toute la France',
             'years': 'ans',
-            'graduation': "Master 2 Informatique",
+            'graduation': "Ingénieur génie logiciel",
             'myResearch': 'Recherche de contrat CDI',
             'researchDescription': "Je recherche une entreprise innovante et centrée sur l'utilisateur pour répondre au mieux aux besoins du client, de son idée à la livraison finale de son projet, ou participer à l'amélioration d'un projet existant.",
             'and':'et',
@@ -39,19 +39,20 @@ export const locale = {
             'goodLevel': 'Bon niveau',
             'french': 'Français',
             'english': 'Anglais',
-            'masterDegreeTwo': "Master 2 Informatique E-services",
-            'masterDegreeTwoDesc': "Master en services numériques",
-            'masterDegreeOne': "Master 1 Informatique",
-            'masterDegreeOneDesc': "Master Général Informatique",
-            'bachlorDegree': "Licence 3 Informatique",
-            'bachlorDegreeDesc': "Licence en informatiques",
-            'university': 'Université de Lille, FR',
+            'masterDegreeTwo': "Angular 16 et versions antérieures - Fonctionnalités avancées",
+            'masterDegreeTwoDesc': "M2i  center Formation",
+            'masterDegreeOne': "Diplôme d'ingénieur Informatique ",
+            'masterDegreeOneDesc': "Génie Logiciel",
+            'bachlorDegree': "Baccalauréat",
+            'bachlorDegreeDesc': "Série sciences expérimentales",
+            'university': 'Casablanca , Maroc',
             'mission':'Mission',
             'technologies':'Téchnologies',
             'detail':'Détail',
             'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
             'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
-            'years':'ans'
+            'years':'ans',
+            'city':'Montpellier, France '
         },
         'header': {
             'home': 'Accueil',
@@ -59,7 +60,6 @@ export const locale = {
             'skills': 'Compétences',
             'references': 'Recommandations',
             'contactMe': 'Me Contacter',
-            
         },
         'home': {
             'iAmDeveloper': 'Je suis développeur',
@@ -67,7 +67,7 @@ export const locale = {
         'projects': {
             'title': 'Projets',
             'projectDetail':'Détail projet',
-            'sourceCode':'Code source',
+            'sourceCode':'En savoir +',
         },
         'references': {
             'title': 'Recommandations',
@@ -80,3 +80,4 @@ export const locale = {
         },
     }
 }
+

@@ -4,18 +4,18 @@
     display: block;
     width: 50px;
     height: 4px;
-    background: #149ddd;
+    background:#c52127;
 
 }
 section{
     padding-top: 100px;
   }
 h2{
-    color: rgb(22, 59, 90);
+    color:#000;
 }
 html{scroll-behavior: smooth;}
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Inclusive Sans', sans-serif}
 
 
 .mat-radio-button.mat-accent .mat-radio-inner-circle{
@@ -26,4 +26,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 .mat-radio-outer-circle{
     border-color: white!important;
+}
+.mdc-radio {
+    height: auto !important;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #f1903d !important;
+    border-color: #f1903d  !important;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c52127 !important;
+    border-color: #c52127 !important;
+}
+.btn-primary:focus, .btn:focus {
+    box-shadow: none !important;
 }
